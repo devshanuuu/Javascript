@@ -18,3 +18,4 @@ let isLoggenIn = false
 
 console.log(typeof "shanu");
 console.log(typeof 4);
+console.log(typeof false);
