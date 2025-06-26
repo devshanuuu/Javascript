@@ -19,3 +19,5 @@ let isLoggenIn = false
 console.log(typeof "shanu");
 console.log(typeof 4);
 console.log(typeof false);
+console.log(typeof undefined); //undefined
+console.log(typeof null); //object
