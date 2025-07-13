@@ -36,6 +36,26 @@ console.log(typeof outsideTemp); // => object(typeof of null is object)
 console.log(typeof myFunction); // => function
 console.log(typeof heros); // => object
 
+// ***************************Memory********************
 
+/* Stack memory(Primitve), Heap memory(Non-Primitve) */
+
+let myYoutubename = "okeydokey.com"
+
+let anotherName = myYoutubename
+anotherName = "discovery.com"
+
+console.log(myYoutubename); // => okeydokey.com
+console.log(anotherName); // => discovery.com
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "shanu@google.com"
+
+console.log(userOne.email); // => shanu@google.com
+console.log(userTwo.email); // => shanu@google.com
 
 
