@@ -1,0 +1,35 @@
+const name = "Shanu"
+const repoCount = 20
+
+//console.log(name + repoCount + " value"); => not good syntax
+
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+
+/*Another way to declare string*/
+
+const gameName = new String("shanu.th")
+console.log(gameName); // => String: 'shanu.th'
+
+/*String Methods*/
+console.log(gameName[0]); // => s
+console.log(gameName.length); // => 8
+console.log(gameName.toUpperCase()); // => SHANU.TH
+console.log(gameName.charAt(2)); // => a
+
+const newString = gameName.substring(0, 3) // remember if start or end is less than 0, JS converts it to 0
+console.log(newString); // => sha
+
+const anotherString = gameName.slice(-3)
+console.log(anotherString); // => .th
+
+const stringTwo = gameName.substring(0)
+console.log(stringTwo); // => shanu.th
+
+
+
+
+
+
+
+
+
