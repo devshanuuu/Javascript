@@ -28,6 +28,20 @@ console.log(stringTwo); // => shanu.th
 const stringThree = gameName.substring(-2, 3) // remember if start or end is less than 0, JS converts it to 0
 console.log(stringThree);
 
+const stringFour = "    shanu   "
+console.log(stringFour.trim()); // => shanu
+
+const url = "https://shanu.com/shanu%20portfolio"
+console.log(url.replace('%20', '-')); // will replace %20 with -
+console.log(url.includes('sha')); // => true
+console.log(url.includes('okay')); // => false
+
+const stringFive = "shanu-btech-cse"
+console.log(stringFive.split('-')); // => ['shanu', 'btech', 'cse']
+
+
+
+
 
 
 
