@@ -16,7 +16,7 @@ console.log(gameName.length); // => 8
 console.log(gameName.toUpperCase()); // => SHANU.TH
 console.log(gameName.charAt(2)); // => a
 
-const newString = gameName.substring(0, 3) // remember if start or end is less than 0, JS converts it to 0
+const newString = gameName.substring(0, 3) 
 console.log(newString); // => sha
 
 const anotherString = gameName.slice(-3)
@@ -24,6 +24,10 @@ console.log(anotherString); // => .th
 
 const stringTwo = gameName.substring(0)
 console.log(stringTwo); // => shanu.th
+
+const stringThree = gameName.substring(-2, 3) // remember if start or end is less than 0, JS converts it to 0
+console.log(stringThree);
+
 
 
 
