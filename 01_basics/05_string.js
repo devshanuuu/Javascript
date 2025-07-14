@@ -16,10 +16,10 @@ console.log(gameName.length); // => 8
 console.log(gameName.toUpperCase()); // => SHANU.TH
 console.log(gameName.charAt(2)); // => a
 
-const newString = gameName.substring(0, 3) 
+const newString = gameName.substring(0, 3) // 3 index element is not included 
 console.log(newString); // => sha
 
-const anotherString = gameName.slice(-3)
+const anotherString = gameName.slice(-3) // Last 3
 console.log(anotherString); // => .th
 
 const stringTwo = gameName.substring(0)
